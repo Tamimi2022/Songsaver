@@ -1,0 +1,100 @@
+th { width: 250px; border-collapse: collapse; 
+border: solid 1px #777; padding: 5px; }
+
+body {
+    background-color: beige;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: #353535;
+    text-align: center;
+    height: 100%;
+    border: rgb(12, 119, 101) 10px double;
+    border-radius: 20px;
+  }
+  h1 {
+    border: transparent;
+    background-color: #15585f;
+    color: #fff;
+    padding: 40px;
+    margin: 0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  h2 {
+    color: rgba(7, 146, 211, 0.827);
+    padding-top: 20px;
+    font-family: initial;
+  }
+  
+  td {
+    border: 1px solid black;
+    padding: 8px;
+    width: 200px;
+  }
+  
+  input, select {
+    width: 200px;
+    margin: 20px;
+    padding: 10px;
+    background: #109bca;
+    box-shadow: 0 0 2px rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(177, 230, 255);
+    border: solid;
+  }
+  .nav{
+    background: rgb(0,187,249);
+    background: linear-gradient(180deg, rgba(0,187,249,1) 0%, rgba(250,249,249,1) 100%);
+    padding: 5px;
+  }
+  .nav_link{
+    border: 3px dotted #00a7f5;
+    font-size: 30px;
+    display: inline-block;
+    padding: 5px;
+    margin: 10px;
+  }
+  
+  .buttonswrapper{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 900px;
+    margin: auto;
+  }
+  .theList {
+    width: 100%;
+    background-color: #196a73;
+    color: #27f2de;
+  }
+  
+  .subjects{
+    background-color:#f08140;
+    color: #fff;
+  }
+  
+  #deletebutton {
+    background-color: #196a73;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  #addbutton {
+    background-color: #196a73;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+  }
+  #addbutton:hover {
+    background-color: red;
+  }
+  
+  #songlist{
+    width: 100%;
+    background-color: #feeafa;
+  }
+  footer {
+    margin: 50px;
+  }
