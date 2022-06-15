@@ -96,7 +96,6 @@ class SongOverview extends Component {
             return item.rating === rating
           }
           )
-        //const songlist = prevState.songs.sort((a, b) => (b[rating].toUpperCase() > a[rating].toUpperCase()) ? 1 : -1)
             .map(song =>
                 <SongList key={song.id} artist={song.artist} title={song.title} genre={song.genre} rating={song.rating} deleteSong={this.deleteSong}
                 />);
